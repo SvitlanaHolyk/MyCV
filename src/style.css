@@ -173,6 +173,7 @@ html {
 .skills-list {
     width: 50%;
     text-align: left;
+    padding-top: 80px;
 }
 .skills-year {
     display: inline-block;
