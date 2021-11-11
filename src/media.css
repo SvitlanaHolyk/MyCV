@@ -1,0 +1,107 @@
+@media screen and (max-width: 1190px) {
+    .cv-header-item {
+        width: 40%;
+    }
+    .about-me-img {
+        display: none;
+    }
+    .about-me-list {
+        display: inline-block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .about-me-item {
+        width: 100%;
+    }
+    .contact-item {
+        width: 100%;
+    }
+    .contact-item:nth-child(2) .contact-item-descr::before {
+        left: 0;
+        top: 55px;
+    }
+    .contact-item:nth-child(3) .contact-item-descr::before {
+        left: 0;
+        top: 105px;
+    }
+    .contact-item:nth-child(4) .contact-item-descr::before {
+        left: 0;
+        top: 155px;
+    }
+    .contact-item:nth-child(5) .contact-item-descr::before {
+        left: 0;
+        top: 205px;
+    }
+    .contact-item:nth-child(6) .contact-item-descr::before {
+        left: 0;
+        top: 255px;
+    }
+    .portfolio-list {
+        display: inline-block;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1,
+    h2 {
+        font-size: 16px !important;
+    }
+    p,
+    a {
+        font-size: 12px !important;
+    }
+    .top-button {
+        position: fixed;
+        background-color: #e52f389c;
+        color: #fff;
+        box-shadow: 0px 5px 20px 0 rgb(0 0 0 / 27%);
+        border-radius: 5px 5px;
+        right: 5px;
+        padding: 5px 5px;
+        display: inline-block;
+    }
+
+    .section-header {
+        padding-bottom: 0;
+    }
+    .cv-description {
+        display: none;
+    }
+    .cv-avatar {
+        width: 100px;
+    }
+    .intro-item-img {
+        width: 40px;
+    }
+    .skills-container {
+        display: inline-block;
+    }
+    .skills-list,
+    .progress-list {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .portfolio-button,
+    .color-button {
+        padding: 5px 5px;
+    }
+    .progress {
+        width: 100%;
+    }
+    .progress-bar {
+        animation: none !important;
+    }
+    .about-me-list {
+        width: 90%;
+    }
+    .contact-item {
+        padding-left: 0;
+    }
+    .contact-item-descr::before {
+        display: none;
+    }
+    .portfolio-list {
+        padding-top: 0;
+    }
+}
